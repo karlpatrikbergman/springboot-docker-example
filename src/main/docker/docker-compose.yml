@@ -1,0 +1,6 @@
+version: "2"
+services:
+  web:
+    image: se.patrikbergman.java.springboot.docker/springboot-docker:1.5
+    ports:
+      - 8080:8080
