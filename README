@@ -1,0 +1,14 @@
+Simple example of how to build a docker image out of a spring-boot application
+
+Build docker image
+    ./gradlew clean build buildDocker
+
+Verify image exists
+    docker images
+
+Run springboot application using docker-compose
+In directory src/main/docker run
+    docker-compose up
+
+In browser got to
+    http://localhost:8080
